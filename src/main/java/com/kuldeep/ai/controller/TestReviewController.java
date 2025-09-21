@@ -27,9 +27,14 @@ public class TestReviewController {
         obj3.put("id", 3);
         obj3.put("name", "Third");
 
+        Map<String, Object> obj4 = new HashMap<>();
+        obj4.put("id", 4);
+        obj4.put("name", "Fourth");
+
         list.add(obj1);
         list.add(obj2);
         list.add(obj3);
+        list.add(obj4);
 
         return list;
     }
